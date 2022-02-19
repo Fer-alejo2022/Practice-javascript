@@ -1,2 +1,2 @@
 # Practice-javascript
-mas que nada son Ejercicios de Programacion de javascript para mejorar la lógica
+mas que nada son Ejercicios de Programación de Javascript para mejorar la Lógica
