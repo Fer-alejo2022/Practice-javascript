@@ -1,4 +1,4 @@
-class Cuenta{
+class Cuenta {
     constructor(titular, cantidad) {
         this.titular = titular;
         this.cantidad = cantidad;
@@ -7,9 +7,9 @@ class Cuenta{
     ingresar(ingreso) {
          this.cantidad = ingreso;
              if (this.cantidad <= 0) {
-             return "no hay valor";
+                return "no hay valor";
             } else {
-             return "$"+this.cantidad+" <br> ";
+                return "$"+this.cantidad+" <br> ";
             }
     }
 
