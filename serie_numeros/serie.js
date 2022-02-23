@@ -4,11 +4,11 @@ for (i = 0; i < 5; i++) {
    numbers[i] = parseInt(prompt((i+1)+". Ingrese Número"));
 }
 
-// funcion que ordena los numeros crecientemente
+// variable que ordena los numeros crecientemente
 let creciente = numbers.sort(function(a,b){
     return a-b;
 })
-// funcion que ordena los numeros decrecientemente
+// variable que ordena los numeros decrecientemente
 let decreciente = numbers.sort(function(a,b){
     return b-a;
 })
