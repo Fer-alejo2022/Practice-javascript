@@ -1,7 +1,7 @@
 function avisoLluvia(estaLloviendo) {
-      let estaLloviendo = true;
-      let bolean = estaLloviendo == true ? "Esta Lloviendo" : "No esta Lloviendo";
+      let llueve = estaLloviendo;
+      let bolean = llueve == true ? "Esta Lloviendo" : "No esta Lloviendo";
       return bolean;             
 }
-let yes_no;
+let yes_no = true;
 alert(avisoLluvia(yes_no));
