@@ -1,5 +1,6 @@
 let vendedores = [];
 let acum = 0;
+
 for (i = 0; i < 10; i++) {
      vendedores[i] = parseInt(prompt("Ingrese Monto de Venta del vendedor "+(i+1)));
      acum = acum + vendedores[i];    
